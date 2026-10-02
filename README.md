@@ -17,6 +17,12 @@ Kanon Cloud Sync is used for personal file synchronization and backup between se
 
 This repository contains only the small public-facing static website used to describe that purpose and publish the privacy policy.
 
+### Relationship to the Cloud Sync project
+
+This repository is the **public companion repository** for the Kanon Cloud Sync project. The private operations repository remains canonical for synchronization code, automation, configuration snapshots, and internal operational documentation. This public repository is canonical only for the OAuth-facing website, Privacy Policy, GitHub Pages, and custom-domain content.
+
+Review or update this repository when public OAuth-facing information changes, such as the application purpose description, Privacy Policy, public URL/CNAME, or wording needed for Google OAuth configuration/review. Internal implementation-only changes do not require a website update.
+
 ### Repository contents
 
 - `index.html` — public application homepage
@@ -59,6 +65,12 @@ Kanon Cloud Syncは、所有者本人が個人利用するクラウド同期・�
 Kanon Cloud Syncは、Google DriveとMicrosoft OneDriveなどの間で個人ファイルの同期・バックアップを行い、所有者の個人アーカイブから選択した画像をGoogle Photosへアップロードするために使用しています。
 
 このリポジトリに含まれるのは、その用途を説明しPrivacy Policyを公開するための、小規模な公開静的Webサイトだけです。
+
+### Cloud Syncプロジェクトとの関係
+
+このリポジトリは、Kanon Cloud Syncプロジェクトの **公開用companion repository** です。同期スクリプト、自動化、設定snapshot、内部の運用ドキュメントは別のPrivate運用リポジトリを正本とし、このPublicリポジトリはOAuth向けWebサイト、Privacy Policy、GitHub Pages、custom domainの公開内容だけを正本として扱います。
+
+アプリ用途説明、Privacy Policy、公開URL/CNAME、Google OAuth設定・審査に必要な公開文言などが変わる場合は、このリポジトリも確認・更新します。内部実装だけの変更ではWebサイト更新は不要です。
 
 ### リポジトリの内容
 
